@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <title>交通號誌收集戰情室 (4路)</title>
+    <style>
+        /* 設定畫面為完全沒有邊界的滿版 */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: grid;
+            /* 切成 2x2 的網格 */
+            grid-template-columns: 50vw 50vw;
+            grid-template-rows: 50vh 50vh;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* 讓裡面的網頁填滿格子 */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 1px solid #333;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 請把 id= 後面的數字換成你想要的 4 個路口 -->
+    <iframe src="https://hls.bote.gov.taipei/live/index.html?id=300"></iframe>
+    <iframe src="https://hls.bote.gov.taipei/live/index.html?id=222"></iframe>
+    <iframe src="https://hls.bote.gov.taipei/live/index.html?id=155"></iframe>
+    <iframe src="https://hls.bote.gov.taipei/live/index.html?id=312"></iframe>
+</body>
+
+</html>
