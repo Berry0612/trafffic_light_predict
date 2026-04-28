@@ -136,7 +136,7 @@ def process_camera(cam_id, url):
             else:
                 pending_state = None
 
-            # --- 畫面顯示 UI ---
+            # UI
             cv2.rectangle(frame, (x1, y1), (x2, y2), (255, 0, 0), 2)
             text_color = (0, 0, 255) if current_state == "RED" else (0, 255, 0)
             cv2.putText(frame, current_state, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.8, text_color, 2)
@@ -158,33 +158,18 @@ def process_camera(cam_id, url):
     cap.release()
     cv2.destroyWindow(window_name)
 
-# ==========================================
-# 主程式：發起多進程 (Multi-processing)
-# ==========================================
 if __name__ == '__main__':
-    # 這裡放入你想同時監控的 4 個路口網址
-    # 為了測試，我先用你成功抓到的台南網址放 4 次 (你可以自己換成不同路口的 m3u8/串流網址)
     cameras = [
         {"id": "A", "url": "https://trafficvideo3.tainan.gov.tw/4ba95398"},
         {"id": "B", "url": "https://trafficvideo2.tainan.gov.tw/942eb11e"},
         {"id": "C", "url": "https://trafficvideo2.tainan.gov.tw/685f3c55"},
         {"id": "D", "url": "https://trafficvideo3.tainan.gov.tw/d99425e8"}
     ]
-
-    print("🟢 主程式啟動：準備派發 4 個獨立的監視進程...")
     processes = []
-
-    # 迴圈建立子進程
     for cam in cameras:
         p = multiprocessing.Process(target=process_camera, args=(cam["id"], cam["url"]))
         processes.append(p)
         p.start()
-
-    print("🟢 4 個進程已全數啟動！")
-    print("💡 在任何一個影像視窗按下 'q' 即可關閉該路口的監控。")
-
-    # 讓主程式等待所有子程式結束
     for p in processes:
         p.join()
 
-    print("🏁 所有路口監控已安全結束。")

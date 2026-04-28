@@ -7,3 +7,97 @@
 [15:00:51] 轉為 RED (維持 42.2 秒) 
 [15:02:29] 轉為 GREEN (維持 97.7 秒) 預測成功 (誤差 0.4s)
 [15:03:11] 轉為 RED (維持 42.0 秒) 
+[15:13:56] 🚀 [Cam B] 開始監控！
+[15:14:02] 轉為 RED (維持 6.0 秒) 
+[15:15:10] 🚀 [Cam B] 開始監控！
+[15:15:12] 轉為 RED (維持 2.1 秒) 
+[15:16:29] 轉為 GREEN (維持 76.8 秒) 首次記錄週期：76.8秒
+[15:17:11] 轉為 RED (維持 42.1 秒) 
+[15:17:13] 轉為 GREEN (維持 2.4 秒) 校正週期：2.4秒
+[15:17:18] 轉為 RED (維持 4.8 秒) 
+[15:18:49] 轉為 GREEN (維持 90.7 秒) 校正週期：90.7秒
+[15:19:42] 轉為 RED (維持 52.9 秒) 
+[15:21:09] 轉為 GREEN (維持 87.1 秒) 校正週期：87.1秒
+[15:21:45] 🚀 [Cam B] 開始監控！
+[15:21:51] 轉為 RED (維持 6.2 秒) 
+[15:24:28] 🚀 [Cam B] 開始監控！
+[15:27:18] 🚀 [Cam B] 開始監控！
+[15:29:32] 🚀 [Cam B] 開始監控！
+[15:29:34] 轉為 RED (維持 2.1 秒) 
+[15:31:52] 🚀 [Cam B] 開始監控！
+[15:31:54] 轉為 RED (維持 2.1 秒) 
+[15:33:20] 🚀 [Cam B] 開始監控！
+[15:33:22] 轉為 GREEN (維持 2.1 秒) 
+[15:33:42] 轉為 RED (維持 19.8 秒) 
+[15:35:09] 轉為 GREEN (維持 87.4 秒) 首次記錄週期：87.4秒
+[15:36:46] 🚀 [Cam B] 開始監控！
+[15:37:19] 轉為 RED (維持 33.1 秒) 
+[15:37:55] 轉為 GREEN (維持 35.8 秒) 首次記錄週期：35.8秒
+[15:39:16] 轉為 RED (維持 81.1 秒) 
+[15:39:55] 轉為 GREEN (維持 38.9 秒) 校正週期：38.9秒
+[15:41:18] 轉為 RED (維持 83.2 秒) 
+[15:41:55] 轉為 GREEN (維持 36.8 秒) 校正週期：36.8秒
+[15:43:19] 轉為 RED (維持 84.5 秒) 
+[15:43:55] 轉為 GREEN (維持 35.4 秒) 預測成功 (誤差 1.3s)
+[15:45:06] 轉為 RED (維持 71.2 秒) 
+[15:45:55] 轉為 GREEN (維持 48.8 秒) 校正週期：48.8秒
+[15:47:09] 轉為 RED (維持 74.0 秒) 
+[15:47:55] 轉為 GREEN (維持 46.0 秒) 校正週期：46.0秒
+[15:49:17] [Cam B] Monitoring started.
+[15:49:19] -> NOT_RED (Hold 2.1s) 
+[15:50:38] -> RED (Hold 79.4s) 
+[15:51:36] [Cam B] Monitoring started.
+[15:51:38] -> NOT_RED (Hold 2.1s) 
+[15:52:11] -> RED (Hold 33.1s) 
+[15:52:14] -> NOT_RED (Hold 2.5s) Init cycle: 2.5s
+[15:52:23] -> RED (Hold 9.2s) 
+[15:52:25] -> NOT_RED (Hold 2.2s) Predict OK (Err 0.3s)
+[15:52:31] -> RED (Hold 6.2s) 
+[15:52:35] -> NOT_RED (Hold 3.7s) Predict OK (Err 1.2s)
+[15:52:42] -> RED (Hold 7.4s) 
+[15:52:49] -> NOT_RED (Hold 6.4s) Update cycle: 6.4s
+[15:53:01] -> RED (Hold 12.5s) 
+[15:53:07] -> NOT_RED (Hold 6.1s) Predict OK (Err 0.2s)
+[15:53:19] -> RED (Hold 11.7s) 
+[15:53:26] -> NOT_RED (Hold 7.0s) Predict OK (Err 0.7s)
+[15:53:30] -> RED (Hold 4.2s) 
+[15:53:39] -> NOT_RED (Hold 8.4s) Update cycle: 8.4s
+[15:53:42] -> RED (Hold 3.1s) 
+[15:53:48] -> NOT_RED (Hold 6.1s) Update cycle: 6.1s
+[15:54:39] -> RED (Hold 50.7s) 
+[15:54:45] -> NOT_RED (Hold 6.2s) Predict OK (Err 0.1s)
+[15:55:00] -> RED (Hold 15.0s) 
+[15:56:14] -> NOT_RED (Hold 74.0s) Update cycle: 74.0s
+[15:56:51] -> RED (Hold 37.2s) 
+[15:57:05] -> NOT_RED (Hold 14.0s) Update cycle: 14.0s
+[15:57:08] -> RED (Hold 3.0s) 
+[15:57:24] -> NOT_RED (Hold 16.2s) Update cycle: 16.2s
+[15:57:30] -> RED (Hold 6.3s) 
+[15:57:50] -> NOT_RED (Hold 19.1s) Update cycle: 19.1s
+[15:57:55] -> RED (Hold 5.3s) 
+[15:58:12] -> NOT_RED (Hold 17.3s) Predict OK (Err 1.8s)
+[15:59:11] -> RED (Hold 58.9s) 
+[15:59:23] -> NOT_RED (Hold 11.8s) Update cycle: 11.8s
+[15:59:49] [Cam B] Monitoring started.
+[15:59:53] -> RED (Hold 4.5s) 
+[16:00:01] -> NOT_RED (Hold 7.7s) Init cycle: 7.7s
+[16:00:05] -> RED (Hold 4.5s) 
+[16:00:20] -> NOT_RED (Hold 14.2s) Update cycle: 14.2s
+[16:00:25] -> RED (Hold 5.7s) 
+[16:00:32] -> NOT_RED (Hold 7.0s) Update cycle: 7.0s
+[16:00:38] -> RED (Hold 6.1s) 
+[16:00:53] -> NOT_RED (Hold 14.8s) Update cycle: 14.8s
+[16:01:34] -> RED (Hold 41.3s) 
+[16:01:41] -> NOT_RED (Hold 6.3s) Update cycle: 6.3s
+[16:02:18] -> RED (Hold 37.4s) 
+[16:02:28] -> NOT_RED (Hold 9.8s) Update cycle: 9.8s
+[16:02:33] -> RED (Hold 5.4s) 
+[16:02:59] -> NOT_RED (Hold 26.0s) Update cycle: 26.0s
+[16:03:36] -> RED (Hold 36.5s) 
+[16:03:45] -> NOT_RED (Hold 9.0s) Update cycle: 9.0s
+[16:03:52] -> RED (Hold 7.1s) 
+[16:04:36] -> NOT_RED (Hold 43.6s) Update cycle: 43.6s
+[16:04:42] -> RED (Hold 6.3s) 
+[16:04:57] -> NOT_RED (Hold 15.2s) Update cycle: 15.2s
+[16:06:09] -> RED (Hold 72.3s) 
+[16:06:15] -> NOT_RED (Hold 5.4s) Update cycle: 5.4s
